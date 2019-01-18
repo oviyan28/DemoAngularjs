@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+app.controller('EvenOrOddController',function($scope){
+	$scope.EvenOrOdd=function(){
+		if($scope.num%2==0)
+			$scope.result="Even"
+			else
+				$scope.result="odd"
+	}
+})
